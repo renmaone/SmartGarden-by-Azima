@@ -3,9 +3,6 @@
 Tuproq namligi monitoringi, ekinga xos maslahatlar, AI maslahatchi, avtomatik SMS ogohlantirish va dehqon profili.
 Hozirgi versiya demo: datchik qiymatlari brauzerda simulyatsiya qilinadi, profil, issiqxonalar, SMS, suhbat va datchik o'lchovlari brauzerda (localStorage) saqlanadi.
 
-## Ishga tushirish
-Papkada oddiy server ishga tushiring: `python3 -m http.server 8080`, so'ng http://localhost:8080 ni oching.
-
 ## Bo'limlar
 - **Datchiklar holati**: tuproq namligi, harorat, havo namligi, sug'orish holati va o'lchovlar tarixi; CSV eksport.
 - **Boshqaruv paneli**: KPI, issiqxona kartalari (ekin va o'sish bosqichi bilan), namlik grafigi, maslahatlar, sug'orish boshqaruvi, hodisalar.
