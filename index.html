@@ -1,0 +1,58 @@
+<title>Smart Garden</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/views.css">
+
+<div class="app">
+  <aside class="side" aria-label="Asosiy menyu">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4C9 11 7 15 7 19a9 9 0 0 0 18 0c0-4-2-8-9-15z" fill="#4CC585"/><path d="M16 27V15m0 4-4-3m4 6 4-4" stroke="#0D281D" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>
+      Smart Garden
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot">
+      <a class="farmer-mini" href="#profil"><span class="avatar sm" id="me-av2" aria-hidden="true">•</span><span><b id="side-name"></b><span class="s" id="side-farm"></span></span></a>
+      <div class="demo-chip">Demo rejim: qiymatlar simulyatsiya qilinadi; tarix brauzerda saqlanadi.</div>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header class="topbar">
+      <div>
+        <h1 id="page-title">Smart Garden</h1>
+        <div class="sub"><span class="mono" id="clock">--:--:--</span> · jonli demo</div>
+      </div>
+      <div class="tools">
+        <button class="icon-btn" id="bell" aria-label="Ogohlantirishlar"><svg class="ic" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 17V11a6 6 0 0 1 12 0v6l2 2H4zM10 21h4"/></svg><span class="badge" id="bell-badge" hidden></span></button>
+        <button class="icon-btn" id="theme-btn" aria-label="Mavzuni almashtirish"></button>
+        <a class="me-chip" href="#profil" aria-label="Dehqon profili"><span class="avatar sm" id="me-av"></span><span class="nm" id="me-name"></span></a>
+      </div>
+    </header>
+    <main class="view" id="view"></main>
+  </div>
+</div>
+<nav class="bottom-nav" id="bnav" aria-label="Mobil menyu"></nav>
+<div id="toasts" aria-live="polite"></div>
+
+<script charset="utf-8" src="js/config.js"></script>
+<script charset="utf-8" src="js/crops.js"></script>
+<script charset="utf-8" src="js/ui-kit.js"></script>
+<script charset="utf-8" src="js/store.js"></script>
+<script charset="utf-8" src="js/simulator.js"></script>
+<script charset="utf-8" src="js/advice.js"></script>
+<script charset="utf-8" src="js/sms.js"></script>
+<script charset="utf-8" src="js/chart.js"></script>
+<script charset="utf-8" src="js/ai.js"></script>
+<script charset="utf-8" src="js/router.js"></script>
+<script charset="utf-8" src="js/views/dashboard.js"></script>
+<script charset="utf-8" src="js/views/sensors.js"></script>
+<script charset="utf-8" src="js/views/greenhouses.js"></script>
+<script charset="utf-8" src="js/views/assistant.js"></script>
+<script charset="utf-8" src="js/views/messages.js"></script>
+<script charset="utf-8" src="js/views/profile.js"></script>
+<script charset="utf-8" src="js/app.js"></script>

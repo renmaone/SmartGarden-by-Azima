@@ -1,0 +1,27 @@
+/* Dizayn tokenlari: ranglar, shriftlar, radius. Yorug' va qorong'i mavzu. */
+:root{
+  --bg:#F1F5F2; --surface:#FFFFFF; --surface2:#E8EFEA; --ink:#0F2219; --muted:#587062; --line:#D4DFD7;
+  --brand:#18804D; --brand-ink:#FFFFFF; --brand-soft:#D9EFE2;
+  --water:#0B6E8F; --water-soft:#D6EAF1;
+  --side:#0D281D; --side-ink:#DCEEE3; --side-muted:#86A596; --side-active:#1A4733; --side-line:#1D3F2F;
+  --ok:#18804D; --ok-soft:#D9EFE2; --low:#A25F08; --low-soft:#F8E6C6; --high:#B3262F; --high-soft:#F8D9DB;
+  --shadow:0 1px 2px rgba(15,34,25,.06),0 4px 14px rgba(15,34,25,.05);
+  --r:12px; --r-sm:8px;
+  --f-display:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;
+  --f-body:'IBM Plex Sans','Segoe UI',system-ui,sans-serif;
+  --f-mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#09130E; --surface:#112119; --surface2:#1A2F24; --ink:#E4F0E8; --muted:#8FA89A;
+  --line:#254030; --brand:#4CC585; --brand-ink:#06200F; --brand-soft:#153826;
+  --water:#58BEDF; --water-soft:#123845;
+  --side:#060F0A; --side-ink:#DCEEE3; --side-muted:#7C9A8B; --side-active:#143324; --side-line:#14281E;
+  --ok:#5CD08A; --ok-soft:#163A26; --low:#EDB04F; --low-soft:#41300F; --high:#F27B83; --high-soft:#46181C;
+  --shadow:0 1px 2px rgba(0,0,0,.4); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#09130E; --surface:#112119; --surface2:#1A2F24; --ink:#E4F0E8; --muted:#8FA89A; --line:#254030;
+  --brand:#4CC585; --brand-ink:#06200F; --brand-soft:#153826;
+  --water:#58BEDF; --water-soft:#123845;
+  --side:#060F0A; --side-ink:#DCEEE3; --side-muted:#7C9A8B; --side-active:#143324; --side-line:#14281E;
+  --ok:#5CD08A; --ok-soft:#163A26; --low:#EDB04F; --low-soft:#41300F; --high:#F27B83; --high-soft:#46181C;
+  --shadow:0 1px 2px rgba(0,0,0,.4); color-scheme:dark}
